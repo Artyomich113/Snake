@@ -28,7 +28,7 @@ public class SnakeHead : SnakePart, IMovable
 
 	ScoreHandler scoreHandler;
 
-	public System.Action<float> OnMoved;
+	public Action<float> OnMoved;
 
 	SnakePart LastSnakePart;
 	//public delegate Event OnSnakeDie(SnakeHead snakeHead);

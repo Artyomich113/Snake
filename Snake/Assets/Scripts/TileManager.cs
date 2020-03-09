@@ -35,7 +35,7 @@ public class TileManager : MonoBehaviour
 
 	/// </summary>
 
-	Director director;
+	
 
 	private void Awake ()
 	{
@@ -97,8 +97,6 @@ public class TileManager : MonoBehaviour
 
 	private void Start ()
 	{
-		director = new Director ();
-
 		//GameManager.instanse.StartGame += StartLevel1;
 		StartLevel1 ();
 	}
